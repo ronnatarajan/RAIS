@@ -5,7 +5,7 @@ import re
 import requests
 import streamlit as st
 
-from backend.tools.logger import LoggerSetup
+from src.backend.tools.logger import LoggerSetup
 
 
 @st.cache_data(ttl=1800, max_entries=1000)

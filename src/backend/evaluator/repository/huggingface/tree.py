@@ -59,9 +59,9 @@ class Tree:
         return api.list_repo_files(repo_name)
 
     def make_tree(self, repo, file_path=None):
-        root_node = build_tree_from_paths(get_tree(repo))
+        root_node = self.build_tree_from_paths(self.get_tree(repo))
 
         if not file_path:
             return root_node.to_dict()
         else:
-            serialize_tree_to_file(root_node, file_path)
+            self.serialize_tree_to_file(root_node, file_path)

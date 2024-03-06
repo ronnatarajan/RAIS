@@ -5,7 +5,7 @@ import time
 import requests
 import streamlit as st
 
-from backend.tools.logger import LoggerSetup
+from src.backend.tools.logger import LoggerSetup
 
 ROOT_REPO_DATA_SPECS = [
     {

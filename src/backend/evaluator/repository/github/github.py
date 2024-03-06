@@ -4,10 +4,10 @@ import re
 
 import requests
 
-from backend.evaluator.repository.github.metadata import Metadata
-from backend.evaluator.repository.github.tree import Tree
-from backend.tools.depot import Depot
-from backend.tools.logger import LoggerSetup
+from src.backend.evaluator.repository.github.metadata import Metadata
+from src.backend.evaluator.repository.github.tree import Tree
+from src.backend.tools.depot import Depot
+from src.backend.tools.logger import LoggerSetup
 
 
 class Github:
